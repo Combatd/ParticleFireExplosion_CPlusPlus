@@ -6,24 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXCopyFilesBuildPhase section */
-		5A5DD2E02EE4F49C00BF0B5C /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		5A5DD2E22EE4F49C00BF0B5C /* SDL_ParticleFireExplosion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDL_ParticleFireExplosion; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A26AB4E2EE4F71C0025DB87 /* SDL_ParticleFireExplosion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDL_ParticleFireExplosion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5A5DD2E42EE4F49C00BF0B5C /* SDL_ParticleFireExplosion */ = {
+		5A26AB502EE4F71C0025DB87 /* SDL_ParticleFireExplosion */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SDL_ParticleFireExplosion;
 			sourceTree = "<group>";
@@ -31,7 +19,7 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5A5DD2DF2EE4F49C00BF0B5C /* Frameworks */ = {
+		5A26AB4B2EE4F71C0025DB87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5A5DD2D92EE4F49C00BF0B5C = {
+		5A26AB452EE4F71C0025DB87 = {
 			isa = PBXGroup;
 			children = (
-				5A5DD2E42EE4F49C00BF0B5C /* SDL_ParticleFireExplosion */,
-				5A5DD2E32EE4F49C00BF0B5C /* Products */,
+				5A26AB502EE4F71C0025DB87 /* SDL_ParticleFireExplosion */,
+				5A26AB4F2EE4F71C0025DB87 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5A5DD2E32EE4F49C00BF0B5C /* Products */ = {
+		5A26AB4F2EE4F71C0025DB87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A5DD2E22EE4F49C00BF0B5C /* SDL_ParticleFireExplosion */,
+				5A26AB4E2EE4F71C0025DB87 /* SDL_ParticleFireExplosion.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,63 +48,73 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A5DD2E12EE4F49C00BF0B5C /* SDL_ParticleFireExplosion */ = {
+		5A26AB4D2EE4F71C0025DB87 /* SDL_ParticleFireExplosion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A5DD2E92EE4F49C00BF0B5C /* Build configuration list for PBXNativeTarget "SDL_ParticleFireExplosion" */;
+			buildConfigurationList = 5A26AB602EE4F71E0025DB87 /* Build configuration list for PBXNativeTarget "SDL_ParticleFireExplosion" */;
 			buildPhases = (
-				5A5DD2DE2EE4F49C00BF0B5C /* Sources */,
-				5A5DD2DF2EE4F49C00BF0B5C /* Frameworks */,
-				5A5DD2E02EE4F49C00BF0B5C /* CopyFiles */,
+				5A26AB4A2EE4F71C0025DB87 /* Sources */,
+				5A26AB4B2EE4F71C0025DB87 /* Frameworks */,
+				5A26AB4C2EE4F71C0025DB87 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5A5DD2E42EE4F49C00BF0B5C /* SDL_ParticleFireExplosion */,
+				5A26AB502EE4F71C0025DB87 /* SDL_ParticleFireExplosion */,
 			);
 			name = SDL_ParticleFireExplosion;
 			packageProductDependencies = (
 			);
 			productName = SDL_ParticleFireExplosion;
-			productReference = 5A5DD2E22EE4F49C00BF0B5C /* SDL_ParticleFireExplosion */;
-			productType = "com.apple.product-type.tool";
+			productReference = 5A26AB4E2EE4F71C0025DB87 /* SDL_ParticleFireExplosion.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5A5DD2DA2EE4F49C00BF0B5C /* Project object */ = {
+		5A26AB462EE4F71C0025DB87 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
-					5A5DD2E12EE4F49C00BF0B5C = {
+					5A26AB4D2EE4F71C0025DB87 = {
 						CreatedOnToolsVersion = 26.1;
 					};
 				};
 			};
-			buildConfigurationList = 5A5DD2DD2EE4F49C00BF0B5C /* Build configuration list for PBXProject "SDL_ParticleFireExplosion" */;
+			buildConfigurationList = 5A26AB492EE4F71C0025DB87 /* Build configuration list for PBXProject "SDL_ParticleFireExplosion" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5A5DD2D92EE4F49C00BF0B5C;
+			mainGroup = 5A26AB452EE4F71C0025DB87;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5A5DD2E32EE4F49C00BF0B5C /* Products */;
+			productRefGroup = 5A26AB4F2EE4F71C0025DB87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A5DD2E12EE4F49C00BF0B5C /* SDL_ParticleFireExplosion */,
+				5A26AB4D2EE4F71C0025DB87 /* SDL_ParticleFireExplosion */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5A26AB4C2EE4F71C0025DB87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5A5DD2DE2EE4F49C00BF0B5C /* Sources */ = {
+		5A26AB4A2EE4F71C0025DB87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,7 +124,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5A5DD2E72EE4F49C00BF0B5C /* Debug */ = {
+		5A26AB5E2EE4F71E0025DB87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +185,7 @@
 			};
 			name = Debug;
 		};
-		5A5DD2E82EE4F49C00BF0B5C /* Release */ = {
+		5A26AB5F2EE4F71E0025DB87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,44 +239,82 @@
 			};
 			name = Release;
 		};
-		5A5DD2EA2EE4F49C00BF0B5C /* Debug */ = {
+		5A26AB612EE4F71E0025DB87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.combatd.SDL-ParticleFireExplosion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Debug;
 		};
-		5A5DD2EB2EE4F49C00BF0B5C /* Release */ = {
+		5A26AB622EE4F71E0025DB87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.combatd.SDL-ParticleFireExplosion";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A5DD2DD2EE4F49C00BF0B5C /* Build configuration list for PBXProject "SDL_ParticleFireExplosion" */ = {
+		5A26AB492EE4F71C0025DB87 /* Build configuration list for PBXProject "SDL_ParticleFireExplosion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A5DD2E72EE4F49C00BF0B5C /* Debug */,
-				5A5DD2E82EE4F49C00BF0B5C /* Release */,
+				5A26AB5E2EE4F71E0025DB87 /* Debug */,
+				5A26AB5F2EE4F71E0025DB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A5DD2E92EE4F49C00BF0B5C /* Build configuration list for PBXNativeTarget "SDL_ParticleFireExplosion" */ = {
+		5A26AB602EE4F71E0025DB87 /* Build configuration list for PBXNativeTarget "SDL_ParticleFireExplosion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5A5DD2EA2EE4F49C00BF0B5C /* Debug */,
-				5A5DD2EB2EE4F49C00BF0B5C /* Release */,
+				5A26AB612EE4F71E0025DB87 /* Debug */,
+				5A26AB622EE4F71E0025DB87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5A5DD2DA2EE4F49C00BF0B5C /* Project object */;
+	rootObject = 5A26AB462EE4F71C0025DB87 /* Project object */;
 }

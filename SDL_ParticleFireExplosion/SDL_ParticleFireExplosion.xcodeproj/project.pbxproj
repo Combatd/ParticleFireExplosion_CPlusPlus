@@ -6,8 +6,40 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5AC7FA512EE53A8A000EFE87 /* hello.c in Sources */ = {isa = PBXBuildFile; fileRef = 5AC7FA502EE53A8A000EFE87 /* hello.c */; };
+		5AC7FA5D2EE53ADB000EFE87 /* SDL3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC7FA5B2EE53AB0000EFE87 /* SDL3.framework */; };
+		5AC7FA5E2EE53ADB000EFE87 /* SDL3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC7FA5B2EE53AB0000EFE87 /* SDL3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AC7FA5A2EE53AB0000EFE87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AC7FA522EE53AB0000EFE87 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BECDF66C0761BA81005FE872;
+			remoteInfo = SDL3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AC7FA3A2EE539A0000EFE87 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5AC7FA5E2EE53ADB000EFE87 /* SDL3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		5A26AB4E2EE4F71C0025DB87 /* SDL_ParticleFireExplosion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDL_ParticleFireExplosion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC7FA502EE53A8A000EFE87 /* hello.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hello.c; sourceTree = "<group>"; };
+		5AC7FA522EE53AB0000EFE87 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "/Users/markcalvelo/Downloads/SDL-release-3.2.28/Xcode/SDL/SDL.xcodeproj"; sourceTree = "<absolute>"; };
+		5AC7FA5F2EE53ADB000EFE87 /* SDL_ParticleFireExplosion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDL_ParticleFireExplosion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC7FA5D2EE53ADB000EFE87 /* SDL3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,17 +65,27 @@
 		5A26AB452EE4F71C0025DB87 = {
 			isa = PBXGroup;
 			children = (
+				5AC7FA522EE53AB0000EFE87 /* SDL.xcodeproj */,
+				5AC7FA502EE53A8A000EFE87 /* hello.c */,
 				5A26AB502EE4F71C0025DB87 /* SDL_ParticleFireExplosion */,
-				5A26AB4F2EE4F71C0025DB87 /* Products */,
+				5AC7FA5C2EE53ADB000EFE87 /* Frameworks */,
+				5AC7FA5F2EE53ADB000EFE87 /* SDL_ParticleFireExplosion.app */,
 			);
 			sourceTree = "<group>";
 		};
-		5A26AB4F2EE4F71C0025DB87 /* Products */ = {
+		5AC7FA552EE53AB0000EFE87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A26AB4E2EE4F71C0025DB87 /* SDL_ParticleFireExplosion.app */,
+				5AC7FA5B2EE53AB0000EFE87 /* SDL3.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5AC7FA5C2EE53ADB000EFE87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,6 +98,7 @@
 				5A26AB4A2EE4F71C0025DB87 /* Sources */,
 				5A26AB4B2EE4F71C0025DB87 /* Frameworks */,
 				5A26AB4C2EE4F71C0025DB87 /* Resources */,
+				5AC7FA3A2EE539A0000EFE87 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -67,7 +111,7 @@
 			packageProductDependencies = (
 			);
 			productName = SDL_ParticleFireExplosion;
-			productReference = 5A26AB4E2EE4F71C0025DB87 /* SDL_ParticleFireExplosion.app */;
+			productReference = 5AC7FA5F2EE53ADB000EFE87 /* SDL_ParticleFireExplosion.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,14 +138,30 @@
 			mainGroup = 5A26AB452EE4F71C0025DB87;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5A26AB4F2EE4F71C0025DB87 /* Products */;
+			productRefGroup = 5A26AB452EE4F71C0025DB87;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5AC7FA552EE53AB0000EFE87 /* Products */;
+					ProjectRef = 5AC7FA522EE53AB0000EFE87 /* SDL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5A26AB4D2EE4F71C0025DB87 /* SDL_ParticleFireExplosion */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5AC7FA5B2EE53AB0000EFE87 /* SDL3.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDL3.framework;
+			remoteRef = 5AC7FA5A2EE53AB0000EFE87 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5A26AB4C2EE4F71C0025DB87 /* Resources */ = {
@@ -118,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC7FA512EE53A8A000EFE87 /* hello.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
